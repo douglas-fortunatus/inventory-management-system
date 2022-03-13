@@ -1,0 +1,29 @@
+E:\Window application\Inventory Managment System\Inventory Managment System\bin\Debug\Inventory Managment System.exe.config
+E:\Window application\Inventory Managment System\Inventory Managment System\bin\Debug\Inventory Managment System.exe
+E:\Window application\Inventory Managment System\Inventory Managment System\bin\Debug\Inventory Managment System.pdb
+E:\Window application\Inventory Managment System\Inventory Managment System\bin\Debug\Inventory Managment System.xml
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory Managment System.vbprojAssemblyReference.cache
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.mainform.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.Resources.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory Managment System.vbproj.GenerateResource.cache
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory Managment System.vbproj.CoreCompileInputs.cache
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory Managment System.exe
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory Managment System.xml
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory Managment System.pdb
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.VendorForm.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.vendorFormRecords.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.CartegoryRecordForm.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.inveCategoryForm.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.ProductForm.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.stockForm.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.productdetailsform.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.stockdetailsform.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.distributordetails.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.distributorform.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.salesform.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.distributordetails1.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.orderform.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.orderFormRecords.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.orderRecordForm.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.salesRecord.resources
+E:\Window application\Inventory Managment System\Inventory Managment System\obj\Debug\Inventory_Managment_System.searchProductForm.resources

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE3E89B4-009F-4727-9047-8CCC3A510531}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Inventory_Managment_System.My.MyApplication</StartupObject>
+    <RootNamespace>Inventory_Managment_System</RootNamespace>
+    <AssemblyName>Inventory Managment System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>E:\Published BB\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Inventory Managment System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Inventory Managment System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CartegoryRecordForm.Designer.vb">
+      <DependentUpon>CartegoryRecordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CartegoryRecordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distributordetails.Designer.vb">
+      <DependentUpon>distributordetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="distributordetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distributordetails1.Designer.vb">
+      <DependentUpon>distributordetails1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="distributordetails1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distributorform.Designer.vb">
+      <DependentUpon>distributorform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="distributorform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inveCategoryForm.Designer.vb">
+      <DependentUpon>inveCategoryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inveCategoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventory_managmrntDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventory_managmrntDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mainform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.Designer.vb">
+      <DependentUpon>mainform.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="orderform.Designer.vb">
+      <DependentUpon>orderform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="orderform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderFormRecords.Designer.vb">
+      <DependentUpon>orderFormRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="orderFormRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderRecordForm.Designer.vb">
+      <DependentUpon>orderRecordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="orderRecordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processes.vb" />
+    <Compile Include="productdetailsform.Designer.vb">
+      <DependentUpon>productdetailsform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="productdetailsform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductForm.Designer.vb">
+      <DependentUpon>ProductForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesform.Designer.vb">
+      <DependentUpon>salesform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="salesform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesRecord.Designer.vb">
+      <DependentUpon>salesRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="salesRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchProductForm.Designer.vb">
+      <DependentUpon>searchProductForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchProductForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockdetailsform.Designer.vb">
+      <DependentUpon>stockdetailsform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stockdetailsform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockform.Designer.vb">
+      <DependentUpon>stockform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stockform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendorForm.Designer.vb">
+      <DependentUpon>VendorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VendorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendorFormRecords.Designer.vb">
+      <DependentUpon>vendorFormRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendorFormRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CartegoryRecordForm.resx">
+      <DependentUpon>CartegoryRecordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distributordetails.resx">
+      <DependentUpon>distributordetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distributordetails1.resx">
+      <DependentUpon>distributordetails1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distributorform.resx">
+      <DependentUpon>distributorform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inveCategoryForm.resx">
+      <DependentUpon>inveCategoryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderform.resx">
+      <DependentUpon>orderform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderFormRecords.resx">
+      <DependentUpon>orderFormRecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderRecordForm.resx">
+      <DependentUpon>orderRecordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productdetailsform.resx">
+      <DependentUpon>productdetailsform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductForm.resx">
+      <DependentUpon>ProductForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesform.resx">
+      <DependentUpon>salesform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesRecord.resx">
+      <DependentUpon>salesRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchProductForm.resx">
+      <DependentUpon>searchProductForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockdetailsform.resx">
+      <DependentUpon>stockdetailsform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockform.resx">
+      <DependentUpon>stockform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VendorForm.resx">
+      <DependentUpon>VendorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendorFormRecords.resx">
+      <DependentUpon>vendorFormRecords.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="inventory_managmrntDataSet.xsc">
+      <DependentUpon>inventory_managmrntDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="inventory_managmrntDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventory_managmrntDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventory_managmrntDataSet.xss">
+      <DependentUpon>inventory_managmrntDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
